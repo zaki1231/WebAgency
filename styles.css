@@ -1,0 +1,652 @@
+* body,
+	html, textarea {
+	    height: 100%;
+	    margin: 0%;
+	    font-family: 'Roboto', sans-serif;
+	}
+
+	.content{
+		width: 70%;
+		margin: auto;
+	}
+	
+	ul {
+	    list-style-type: none;
+	}
+	
+	header {
+		z-index: 100;
+	    width: 100%;
+	    top: 0;
+	    position: fixed;
+	    background-color: #FDFEFE;
+	    display: flex;
+	    flex-direction: column;   
+	    align-items: center;    
+	}
+	
+	.logo {
+	    width: 150px auto;
+	    margin:15px auto;
+	}
+	
+	nav ul {
+	    display: flex;
+	    padding: 0;
+	}
+	
+	nav li {   
+	    font-size: 12px;
+	}
+	
+	nav li a:hover {
+	    border-top: solid 2px;
+	    border-color: #87CEEB;
+	    font-weight: bold;
+	}
+	
+	nav li a {
+	    color: #5F6161;
+	    text-decoration: none;
+	    padding: 20px;
+	}
+	
+    #accueil{
+    	height: 30%;
+    }
+
+	#slider_accueil{
+		position: relative;
+		margin-top: 120px;
+		height: 100%;
+		background-image: url("images/bg1.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+
+	}
+
+	#baniere_image h1 {
+	    font-size: 25px;
+	    font-weight: bold;
+	}
+	
+	#fleche1{
+		position: absolute;
+		top: 45%;
+		border-radius: 0px 100px 100px 0px;
+		background-color: #000000c2;
+		width: 20px;
+		height: 30px;
+	}
+
+	#fleche1 i{
+		color: white;
+		font-size: 20px;
+		margin-left: 3px;
+		margin-top: 5px;
+	}
+
+	#fleche2{
+		position: absolute;
+		top: 45%;
+		right: 0;		
+		border-radius: 100px 0px 0px 100px;
+		background-color: #000000c2;
+		width: 20px;
+		height: 30px;
+	}
+
+	#fleche2 i{
+		color: white;
+		font-size: 20px;
+		margin-left: 8px;
+		margin-top: 5px;
+	}
+	
+	#titre_accueil {
+		width: 50%;
+	    display: flex;
+	    flex-direction: column;
+	    margin-left: 7%;
+	    position: absolute;
+	    top: 10%;    
+	}
+
+	#titre_accueil span {
+	    color: #87CEEB;
+	}
+
+	#titre_accueil h1 {
+	    color: white;
+	    font-size: 0.8em;
+	}
+
+	#titre_accueil p{
+		margin: 0;
+	    color: white;
+	    font-size: 0.6em;
+	}
+
+	.infos p{
+		padding-top: 12%;
+	}
+
+	.infos{
+		color: #fbfbfb;
+		background-color: rgb(92, 173, 211);
+		width: 75px;
+		height: 30px;
+		margin-top: 8%;
+		border-radius: 5%;
+		text-align: center;
+		border-bottom: solid rgb(57, 140, 181);
+	}
+
+	#image_ul img{
+		width: 100%
+	}
+	
+	.nos_services h2{
+	    font-size: 1.8em;
+	    font-weight: bold;
+	    text-align: center;
+	}
+
+	.nos_services p{
+		font-size: 1.2em;
+		color: #777777;
+		text-align: center;
+		margin: 10px 5% 0 5%;
+
+	}
+	
+	.separateur{
+	    position: relative;
+	    margin: auto;
+	    height: 10px;
+	    width: 200px;
+	}
+	
+	.bulleBleu {
+	    position: absolute;
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 8px;
+	    background-color: #5CADD3;
+	    margin: auto;
+	    top: -4px;
+	    left: 90px;
+	}
+	
+	.barreGrise {
+	    position: absolute;
+	    height: 1px;
+	    width: 100%;
+	    background-color: #cbcbcb;
+	    margin: auto;
+	}
+	
+	#bloc{
+		margin-right: 10%;
+        margin-left: 5%;
+		padding: 0;
+	}
+	
+	.texte h4 {
+	    font-size: 1.5em; 
+	    margin: 0;
+	}
+
+	.texte p{
+		margin-right: 10px;
+		margin-top: 20px;
+		font-size: 1.1em;
+	    text-align: justify;
+		color: #777777;
+	}
+
+	.icones_texte{
+		display: flex;	
+	}
+
+	.cercle i{
+		color: #87ceeb;
+        font-size: 20px;
+	}
+	
+    .texte{
+    	padding-left: 20px;	
+    }
+
+    .icones{
+    	padding-left: 10px;	
+    }
+
+    .cercle{
+        width: 20px;
+        height: 20px;
+        border: 1px solid #cbcbcb;
+        padding: 10px;
+        border-radius: 100%;
+        position: relative;
+    }
+
+	.point_bleu{
+		position: absolute;
+        top: 10px;
+        right: -3px;
+        width: 8px;
+        height: 8px;
+        background-color: rgb( 92, 171, 212);
+        border-radius: 100%;
+        margin-top: 15px;
+    }
+	
+	#nos_projets{
+		margin-top: 5%;
+	    padding-top: 8px;
+	    background-color: #F1F2F2;
+	}
+
+	.nos_projets h2{
+		 font-size: 1.8em;
+	    font-weight: bold;
+	    text-align: center;
+	}
+
+	.nos_projets p{
+		font-size: 1.2em;
+		color: #777777;
+		text-align: center;
+		margin: 10px 5% 0 5%;
+	}
+
+	#boutons {
+	    display: flex;
+	    justify-content: space-around;
+        width: 85%;
+        height: 50px;
+        text-decoration: none;
+        text-align: center; 
+        margin: 5% 5% 5% 8%;   
+    }
+    
+    .bouton {
+    	position: relative;
+    	font-size: 1em;
+    	color: black;
+    	padding-top: 15px;
+    	text-decoration: none;
+    	background-color: #cbcbcb;	
+    	width: 25%;
+    }
+
+    .bouton:hover ,.bouton:first-child{
+        background-color: rgb(92, 173, 211);
+    	color: white;
+    	border-bottom: solid rgb(57, 140, 181);
+    }
+
+    .fa-caret-down{
+    	opacity: 0;
+        position: absolute;
+        color: rgb(52, 145, 178);
+        font-size: 1.8em;
+        left: 45%;
+        bottom: -19px;
+    }
+
+    .bouton:first-child{
+    	border-radius: 5px 0 0 5px;
+    }
+
+    .bouton:last-child{
+    	border-radius: 0 5px 5px 0;
+    }
+
+    .bouton:hover .fa-caret-down ,.bouton:first-child .fa-caret-down {
+    	opacity: 1;
+    }
+
+	h3 {
+	    color: #6A6F6F;
+	    font-size: 32px;
+	}
+
+	#portfolio ul{
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.portfolio_item{
+		position: relative;
+		margin: auto;
+	}
+
+    li img{
+    	width: 100%;
+    }
+
+    figure {
+    	margin: 0;
+    	width: 100%;
+    }
+
+	figcaption {
+		visibility: hidden;
+		position: absolute;
+		top: 70%;
+		background-color: #00000073;
+		width: 100%;
+		height: 29%;
+	}
+
+    #portfolio li:hover figcaption{
+    	visibility: visible;
+    }
+
+	figcaption h4  {
+		margin:0;
+		margin-top: 20px;
+		color: white;
+		font-size: 0.9em;
+		padding-left: 12px;	
+	}
+
+	.oeil{
+		position: absolute;
+		top: -25px;
+		right: 5%;
+		width: 8px;
+        height: 8px;
+        border: 2px solid white;
+        padding: 18px;
+        border-radius: 100%;
+        background-color: #5cadd3;
+        z-index: 3;
+	}
+
+	.oeil i{
+		color: white;
+		font-size: 22px;
+		margin-left: -7px;
+		margin-top: -6px;
+	}
+
+	#carte_contact{
+		width: 80%;
+		margin: auto;
+	}
+
+	#carte{
+		position: relative;
+		height: 30%;
+		width: 100%;
+		height: 300px;
+		background-color: rgba(92, 173, 211, 1);
+	}
+
+	.carte{
+		opacity: 0.55;
+		width: 100%;
+        height: 100%;
+        border: 0;
+	}
+
+    .text_contact{
+    	margin-left: 20px;
+    }
+
+	#contact{
+		background-color: #F1F2F2;	
+		height: 550px;
+	}
+
+	.contact{
+        display: flex;
+        flex-direction: column;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	#contact h2 {
+	    margin-left: 5px;
+		font-size: 1.8em;
+		margin-bottom: 15px;
+		margin-top: 13px;
+		padding-top: 10px;
+	}   
+
+	#contact p{
+		margin: 5px;
+		color: #5b5b5b;
+	}
+
+	.font-foncé{
+		font-weight: bolder;
+		color:#5b5b5b;
+	}
+
+	input, #message{
+		margin-top: 15px;
+		border-radius: 5px 5px 5px 5px;
+        height: 30px;
+        font-size: 15px;
+        padding-left: 10px;
+        border: 1px solid #ccc;
+	}
+
+	#message{    
+        height: 180px;
+        padding-top: 8px;
+        
+	}
+
+	.bouton_envoyer{
+	    color: #fbfbfb;
+		background-color: #5cadd3;
+		width: 100px;
+		height: 30px;
+		margin-top: 15px; 
+		border-radius: 6%;
+		text-align: center;
+		font-size: 20px;
+		text-decoration: none;
+		padding-top: 8px;
+		border-bottom: solid rgb(57, 140, 181);
+	}
+
+	@media screen and (min-width: 800px){
+		header{
+			display: flex;
+			flex-direction: row;
+			height: 150px;
+		}
+
+		#menu_principal{
+			width: 60%;
+			padding-right: 10%;
+		}
+
+		nav ul{
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		nav li{
+			font-size: 1.2em;
+		}
+
+		#accueil{
+			height: 85%;
+		}
+
+		#slider_accueil img{
+			height: 100%;
+		}
+
+		#slider_accueil{
+			margin-top: 150px;
+		}
+
+        #fleche1{
+        	width: 30px;
+            height: 50px;
+        }
+
+		#fleche2{
+			width: 30px;
+            height: 50px;
+		}
+
+		#fleche1 i{
+			font-size: 35px;
+		}
+
+		#fleche2 i{
+			font-size: 35px;
+		}
+
+		#titre_accueil{
+			margin-left: 15%;
+			margin-top: 5%;
+		}
+
+		#titre_accueil h1{
+			font-size: 2.5em;
+		}
+
+		#titre_accueil p{
+			font-size: 1.2em;
+		}
+
+		.infos{
+			width: 120px;
+            height: 50px;
+		}
+
+		.infos p{
+            font-size: 0.9em;
+		}
+
+		#image_ul img{
+			width: 30%;
+            height: 30%;
+            margin: 5% 8% 5% 8%;
+		}
+        
+        #services{
+        	padding-top: 40px;
+        }
+
+        .nos_services p{
+        	margin-left: 20%;
+        	margin-right: 20%;
+        	font-size: 1.6em;
+        }
+
+        .nos_services h2{
+        	font-size: 2.5em;
+        }
+        
+        .texte p{
+            font-size: 18px;
+        }
+
+        .texte h4{
+        	font-size: 22px;
+        }
+
+        #image_ul{
+        	display: flex;
+        }
+
+		#bloc{
+			display: flex;
+			flex-direction: column;
+			padding-top: 10%;
+			margin-right: 10%;
+			margin-left: 0;
+		}
+
+		.cercle{
+            width: 25px;
+            height: 25px;
+            border-radius: 100%;
+            position: relative;
+        }
+
+        .cercle i{
+        	font-size: 20px;
+            padding-top: 5px;
+        }
+
+	    .point_bleu{
+            top: 3px;
+            right: -4px;
+            width: 10px;
+            height: 10px;
+		}
+
+		.nos_projets h2{
+		   font-size: 2.5em;
+		}
+
+        .nos_projets p{
+            margin-left: 20%;
+        	margin-right: 20%;
+        	font-size: 1.6em;
+        }
+
+		#boutons{
+			margin: auto;
+			margin-top: 30px;
+			width: 500px;
+		}
+
+		.bouton{
+			font-weight: bold;
+			color: #6a6f6f;
+		}
+
+
+		.content{
+			width: 90%;
+		}
+
+		#portfolio ul{
+			flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            justify-content: center;
+            margin-left: 55px;
+		}
+
+		.portfolio_item{
+			width: 350px;
+		}
+
+		#carte_contact{
+		    width: 80%;
+		    margin: auto;
+	    }
+
+	    #carte{
+		    height: 100%;
+	    }
+    
+        #contact {
+            background-color: #fdfefeba;
+            width: 370px;
+            position: absolute;
+            top: 30px;
+            height: 570px;
+            right: 10%;
+            margin-top: 10px;
+        }
+
+        #carte_contact {
+            height: 100%;
+            position: relative;
+        }
